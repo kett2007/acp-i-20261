@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main () {
-    int numero = 0;
+    int numero;
 
     do{
         printf("entre com o numero entre 1 e 10:\n");
