@@ -32,14 +32,15 @@ int main(){
     //2 | | | |
 
     for (int i = 0; i < 3; i++) {//percorre a linha 
+        for (int j = 0; j)
         print("entre com a posiçao[%i,%i]:", i, j);//percorre a coluna 
         scanf("%i", &tabela[i][j]);
-
+    }
         printf("a tabela ficou assim:\n");
 for (int i = 0; i < 3; i++) {//percorre a linha
     for (int j = 0; j < 3; j++) {
-    print("%i", tabela[i][j]);
-    } 
+    printf("%i", tabela[i][j]);
+    }  
     printf("\n");
        
 }
